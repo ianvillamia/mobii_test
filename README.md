@@ -27,14 +27,14 @@ Lets get this straight haha its very messy if everyone just does whatever they w
  <img src="folder-structure.png" width="350" title="Folder Structure">
 
 ### More Details
-    - Uploader(feature folder)
+    - mobii_list(feature folder)
         - bloc (bloc/cubits)
         - data
-            - models (models whithin uploader only)
+            - models (models whithin mobii_list only)
             - repository
                 - repository(`abstract class` serves as a blueprint)
                 - repository_impl(`implementation` actual implementation of repository)
-        - services (services specific to uploader only)
+        - services (services specific to mobii_list only)
 
         if(featureScreen == 1 page)
         - view
@@ -51,7 +51,7 @@ Lets get this straight haha its very messy if everyone just does whatever they w
                     - widgets(widgets within the page)
                     - page_2.dart (actual page)
                     
-            - uploader_page.dart (main page)
+            - mobii_list_page.dart (main page)
 
     - lib/core/global_widgets - (global widgets)
 
